@@ -1,0 +1,15 @@
+{
+    "rules": {
+        "indent": [2,4,{"SwitchCase": 1, "MemberExpression": 1}],
+        "no-unused-vars": [1],
+        "no-console": [1],
+        "no-redeclare": [1],
+        "no-trailing-spaces": [1],
+        "semi": [2, "always"]
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended"
+}

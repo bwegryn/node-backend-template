@@ -1,0 +1,21 @@
+{
+  "name": "node-backend-template",
+  "version": "1.0.0",
+  "author": "Brianna Wegryn",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint . --quiet",
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwegryn/node-backend-template.git"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  }
+}
